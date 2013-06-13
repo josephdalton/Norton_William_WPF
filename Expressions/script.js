@@ -1,8 +1,11 @@
-// expressions with concantenating strings
+// expressions - assignment operators
 
-var a = 6;
-var b = 7;
+var a = 3;
+//a ++ ; //   <--- this is the same as a = a + 1;
 
-var result = a + b;
-console.log(result);
+a --; // a = a -1 // a -=1
+
+console.log(a);
+
+
 
