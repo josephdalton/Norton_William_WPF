@@ -1,13 +1,12 @@
-// JavaScript
+// Variables of Different Types, Numbers, Booleans and Strings
 
-var yearborn = 1955;
+var age = 38; // number variable
 
-/*
-
-console.log("Hello World!");
-console.log(yearborn);
-*/
+var isStudent = false; //boolean variable
 
 
+var firstName = "Bill";
 
-alert("Hello World");
+var phrase = 'I don\'t know \n you\'ll have to speak to with the professor';
+
+
