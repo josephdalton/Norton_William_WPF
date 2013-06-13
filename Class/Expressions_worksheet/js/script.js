@@ -12,13 +12,13 @@ console.log("Sparkys been alive for " + sparkysRealAge + " " + "dog years"); // 
 
 //Problem 2 Slice of Pie Part 1
 
-var slicesPerPizza = prompt("How many pieces per pie?", 10);
-var numberOfPies = prompt("How many pizza pies ordered?", 2);
-var numberOfPeople = prompt("How many people are eating?", 4);
+var slicesPerPizza = prompt("How many pieces per pie?", 10); //variable for number of slices per pizza
+var numberOfPies = prompt("How many pizza pies ordered?", 2);  //variable for number of pizzas ordered
+var numberOfPeople = prompt("How many people are eating?", 4); // variable for number of people eating
 
-var piecesPerPerson = slicesPerPizza * numberOfPies / numberOfPeople;
-
-console.log("Each person ate" + " " + piecesPerPerson + " " + "pieces of pizza!");
+var piecesPerPerson = slicesPerPizza * numberOfPies / numberOfPeople; // calculations for the problem
+parseFloat(piecesPerPerson); //letting variable piecesPerPerson use a decimal
+console.log("Each person ate" + " " + piecesPerPerson + " " + "pieces of pizza!"); //prints results to console.log
 
 
 
