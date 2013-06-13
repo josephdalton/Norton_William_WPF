@@ -23,4 +23,15 @@ console.log("Each person ate" + " " + piecesPerPerson + " " + "pieces of pizza!"
 
 
 
+//Problem 3 Slices of Pie Part 2
+
+var slicesPerPizza = prompt("How many pieces per pie?", 10); //variable for number of slices per pizza
+var numberOfPies = prompt("How many pizza pies ordered?", 2);  //variable for number of pizzas ordered
+var numberOfPeople = prompt("How many people are eating?", 4); // variable for number of people eating
+
+var piecesPerPerson = slicesPerPizza * numberOfPies % numberOfPeople; //calculations for problem with modulo for remaining number of pieces
+
+
+console.log("Sparky got" + " " + piecesPerPerson + " " + "pieces of pizza"); //print results to console.log
+
 
