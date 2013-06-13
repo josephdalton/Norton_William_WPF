@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+
+<html>
+<body>
+
+<script type="text/javascript">
+var myArray = new Array();
+myArray[0] = "bob";
+myArray[1] = "pete";
+myArray[2] = "paul";
+
+document.write("myArray[0] = " + myArray[0] + "<BR>");
+document.write("myArray[2] = " + myArray[2] + "<BR>");
+document.write("myArray[1] = " + myArray[1] + "<BR>");
+
+myArray[1] = "mike";
+document.write("myArray[1] changed to " + myArray[1]);
+
+
+
+</script>
+</body>
+</html>
