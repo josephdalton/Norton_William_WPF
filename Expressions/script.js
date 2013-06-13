@@ -1,8 +1,6 @@
-// expressions
+// expressions age example
 
-var a = 2;   //sets up variable and defines it as 2
-var b;
+var yearBorn = 1980;
+var age = 2013 - yearBorn - 1;
+console.log (age);
 
-b = a + 3; 
-
-console.log(b);
