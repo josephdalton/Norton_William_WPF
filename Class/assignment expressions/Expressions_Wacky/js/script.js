@@ -5,4 +5,5 @@
 var weeklyMileage = new Array(4);
 	weeklyMileage[0] = prompt("Gas mileage for week 1?");
 	weeklyMileage[1] = prompt("Gas mileage for week 2?");
+	weeklyMileage[2] = prompt("Gas mileage for week 3?");
 	
