@@ -1,6 +1,6 @@
 // William Norton June 14, 2013 Assignment: Expressions
 
-// Personal Calculator for industry
+// Industry calculator for amount of paint leftover and amount needed
 
 var remainPaint = new Array(3); // Starts new array
 	remainPaint[0] = prompt("How many gallons of paint left in can 1?"); //prompt user for array value
