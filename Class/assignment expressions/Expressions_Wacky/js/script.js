@@ -10,6 +10,6 @@ var weeklyMileage = new Array(4); //setting up variable array
 	
 var monthMileage = parseInt(weeklyMileage[0]) + parseInt(weeklyMileage[1]) + parseInt(weeklyMileage[2]) + parseInt(weeklyMileage[3]); //adding up the array values
 
-var average = parseFloat(monthMileage / 4);
+var average = parseFloat(monthMileage / 4); //average calculation
 
 console.log("This month you averaged" + " " + average + " " + "miles per gallon");
