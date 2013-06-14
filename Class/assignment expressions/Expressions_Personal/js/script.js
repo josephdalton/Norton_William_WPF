@@ -3,7 +3,7 @@
 // Personal Calculator 
 
 var poundsOfFood = prompt("How many pounds of food for the dogs do we have?"); //prompt user for amount of food on hand
-var dogKatie = prompt("How many pounds of food does Katie eat in a week?");
+var dogKatie = prompt("How many pounds of food does Katie eat in a week?"); // prompt for amount of dog food Katie eats
 var dogDash = prompt("How many pounds of food does Dash eat in a week?");
 
 var enoughFood = parseInt(dogKatie) + parseInt(dogDash);
