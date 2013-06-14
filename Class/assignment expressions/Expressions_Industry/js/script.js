@@ -2,3 +2,4 @@
 
 // Personal Calculator for industry
 
+var remainPaint = new Array(3);
