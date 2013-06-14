@@ -7,7 +7,7 @@ var remainPaint = new Array(3); // Starts new array
 	remainPaint[1] = prompt("How many gallons of paint left in can 2?"); //prompt user for array value
 	remainPaint[2] = prompt("How many gallons of paint left in can 3?"); //prompt user for array value
 	
-var bigJob = prompt("How many gallons of paint is needed for this job?");
+var bigJob = prompt("How many gallons of paint is needed for this job?"); //prompt user for amount of paint needed
 
 var totalLeft = parseInt(remainPaint[0]) + parseInt(remainPaint[1]) + parseInt(remainPaint[2]);
 
