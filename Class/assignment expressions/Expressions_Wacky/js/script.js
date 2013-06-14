@@ -10,3 +10,5 @@ var weeklyMileage = new Array(4);
 	
 var monthMileage = parseInt(weeklyMileage[0]) + parseInt(weeklyMileage[1]) + parseInt(weeklyMileage[2]) + parseInt(weeklyMileage[3]);
 
+var average = parseFloat(monthMileage / 4);
+
