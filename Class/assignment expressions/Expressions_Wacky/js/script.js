@@ -8,7 +8,7 @@ var weeklyMileage = new Array(4); //setting up variable array
 	weeklyMileage[2] = prompt("Gas mileage for week 3?"); //prompting for array
 	weeklyMileage[3] = prompt("Gas mileage for week 4?"); //prompting for array
 	
-var monthMileage = parseInt(weeklyMileage[0]) + parseInt(weeklyMileage[1]) + parseInt(weeklyMileage[2]) + parseInt(weeklyMileage[3]);
+var monthMileage = parseInt(weeklyMileage[0]) + parseInt(weeklyMileage[1]) + parseInt(weeklyMileage[2]) + parseInt(weeklyMileage[3]); //adding up the array values
 
 var average = parseFloat(monthMileage / 4);
 
