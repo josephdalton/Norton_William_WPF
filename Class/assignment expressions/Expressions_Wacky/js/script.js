@@ -12,3 +12,4 @@ var monthMileage = parseInt(weeklyMileage[0]) + parseInt(weeklyMileage[1]) + par
 
 var average = parseFloat(monthMileage / 4);
 
+console.log("This month you averaged" + " " + average + " " + "miles per gallon");
