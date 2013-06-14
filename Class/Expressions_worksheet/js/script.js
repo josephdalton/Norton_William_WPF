@@ -50,3 +50,19 @@ console.log("You have spent a total of" + " " + "$" + totalAmount + " " + "over 
 
 
 
+//Problem 5 Discounts
+
+var originalPrice = prompt("Original Price?");
+
+var discountPercent = prompt("Discount Percent?");
+
+var itemDescrip = prompt("Item Name?");
+
+var salesTax = prompt("Sales Tax Amount?");
+
+var itemTaxed = originalPrice * salesTax;
+
+
+console.log("Your" + " " + itemDescrip + " " + "was originally $" + originalPrice + "," + " " + "but after a" + " " + discountPercent + "%" + " " + "discount, it is now" + " " + "$" +   );
+
+
