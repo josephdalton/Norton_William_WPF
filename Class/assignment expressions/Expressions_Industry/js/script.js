@@ -7,3 +7,5 @@ var remainPaint = new Array(3);
 	remainPaint[1] = prompt("How many gallons of paint left in can 2?");
 	remainPaint[2] = prompt("How many gallons of paint left in can 3?");
 	
+var bigJob = prompt("How many gallons of paint is needed for this job?");
+
