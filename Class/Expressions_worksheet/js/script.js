@@ -35,3 +35,18 @@ var piecesPerPerson = slicesPerPizza * numberOfPies % numberOfPeople; //calculat
 console.log("Sparky got" + " " + piecesPerPerson + " " + "pieces of pizza"); //print results to console.log
 
 
+
+
+//Problem 4 Average Shopping Bill
+
+var shoppingBill = [150, 220, 175, 210, 198]; //my array of 5 shopping totals
+
+var totalAmount = shoppingBill[0] + shoppingBill[1] + shoppingBill[2] + shoppingBill[3] + shoppingBill[4]; //addition of the arrays elements
+
+console.log("You have spent a total of" + " " + "$" + totalAmount + " " + "over 5 weeks." + " " + "That is an average of" + " " + "$" + totalAmount/5 + " " + "per week"); // prints calculations to console.log
+
+
+
+
+
+
