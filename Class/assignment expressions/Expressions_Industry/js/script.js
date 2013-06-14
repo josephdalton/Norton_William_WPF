@@ -2,7 +2,7 @@
 
 // Personal Calculator for industry
 
-var remainPaint = new Array(3);
+var remainPaint = new Array(3); // Starts new array
 	remainPaint[0] = prompt("How many gallons of paint left in can 1?");
 	remainPaint[1] = prompt("How many gallons of paint left in can 2?");
 	remainPaint[2] = prompt("How many gallons of paint left in can 3?");
