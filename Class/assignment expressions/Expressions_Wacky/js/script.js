@@ -3,3 +3,5 @@
 // Wacky calculator finding average gas mileage for month
 
 var weeklyMileage = new Array(4);
+	weeklyMileage[0] = prompt("Gas mileage for week 1?");
+	
