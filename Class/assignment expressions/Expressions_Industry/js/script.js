@@ -9,3 +9,5 @@ var remainPaint = new Array(3);
 	
 var bigJob = prompt("How many gallons of paint is needed for this job?");
 
+var totalLeft = parseInt(remainPaint[0]) + parseInt(remainPaint[1]) + parseInt(remainPaint[2]);
+
