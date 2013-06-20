@@ -3,4 +3,7 @@
 //Conditionals for Industry
 
 var part = new Array(); //New array for part
+	part[0] = prompt("Does this part get welded before getting painted?"); //prompt for new array index 0
+
+
 
