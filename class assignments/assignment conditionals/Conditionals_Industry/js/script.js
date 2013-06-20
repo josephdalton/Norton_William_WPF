@@ -11,7 +11,20 @@ var welded = ("Take part to the welders");
 var painted = ("Take part to the painters");
 
 if (part[0] === "yes" || "Yes"){
-
+	console.log(welded);
+}else{
+	console.log(painted);
+}
+if (part[1] === "yes" || "Yes"){
+	console.log(welded);
+}else{
+	console.log(painted);
+}
+if (part[2] === "yes" || "Yes"){
+	console.log(welded);
+}else{
+	console.log(painted);
+}
 
 
 
