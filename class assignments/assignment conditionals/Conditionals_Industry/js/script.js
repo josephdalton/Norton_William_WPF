@@ -10,6 +10,8 @@ var part = new Array(); //New array for part
 var welded = ("Take part to the welders"); 
 var painted = ("Take part to the painters");
 
+if (part[0] === "yes" || "Yes"){
+
 
 
 
