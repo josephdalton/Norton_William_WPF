@@ -14,9 +14,6 @@ if (part[0] === "yes" || "Yes"){
 	console.log(welded);
 }else{
 	console.log(painted);
-
-
-
-
-
-
+}
+if (part[1] === "yes" || "Yes"){
+	console.log(welded);
