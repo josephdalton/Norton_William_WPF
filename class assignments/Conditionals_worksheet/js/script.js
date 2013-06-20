@@ -15,7 +15,7 @@ else {  //if above statement is false then this prints
 
 var degrees = prompt("Enter the degrees.");
 var degCF = prompt("Enter f for Fahrenheit or c for Celsius.");
-var cenToFah = 5/9 * (degrees + 32);
+var cenToFah = 9/5 * degrees + 32;
 var fahToCen = 5/9 * (degrees - 32);
 
 if ((degCF == "f") || (degCF == "F")){
