@@ -22,6 +22,6 @@ if (part[1] === "yes"){ //if statement for array[1] prompt
 }
 if (part[2] === "yes"){ //if statement for array[2]
 	console.log(welded); //prints variable welded to console.log
-}else{
-	console.log(painted);
+}else{ //else statement for printing variable painted
+	console.log(painted); //prints painted variable to console.log
 }
