@@ -2,3 +2,5 @@
 
 //Conditionals for Industry
 
+var part = new Array(); //New array for part
+
