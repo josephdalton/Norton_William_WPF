@@ -16,7 +16,7 @@ if (part[0] === "yes"){ //if statement for taking prompt from array[0]
 	console.log(painted); //print variable painted to console.log
 }
 if (part[1] === "yes"){ //if statement for array[1] prompt
-	console.log(welded);
+	console.log(welded); //prints variable welded to console.log
 }else{
 	console.log(painted);
 }
