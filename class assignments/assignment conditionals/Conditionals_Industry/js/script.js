@@ -12,8 +12,8 @@ var painted = ("Take part to the painters"); //variable painted
 
 if (part[0] === "yes"){ //if statement for taking prompt from array[0]
 	console.log(welded); //prints variable welded to console
-}else{
-	console.log(painted);
+}else{ //else statement for console.log variable "painted"
+	console.log(painted); //print variable painted to console.log
 }
 if (part[1] === "yes"){
 	console.log(welded);
