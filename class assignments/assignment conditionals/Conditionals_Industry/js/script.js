@@ -8,6 +8,8 @@ var part = new Array(); //New array for part
 	part[2] = prompt("Does this part get welded before getting painted?"); //prompt for new array index 2
 	
 var welded = ("Take part to the welders"); 
+var painted = ("Take part to the painters");
+
 
 
 
