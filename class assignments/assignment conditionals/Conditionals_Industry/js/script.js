@@ -7,8 +7,8 @@ var part = new Array(); //New array for part
 	part[1] = prompt("Does this part get welded before getting painted?"); //prompt for new array index 1
 	part[2] = prompt("Does this part get welded before getting painted?"); //prompt for new array index 2
 	
-var welded = ("Take part to the welders"); 
-var painted = ("Take part to the painters");
+var welded = ("Take part to the welders"); //variable welded 
+var painted = ("Take part to the painters"); //variable painted
 
 if (part[0] === "yes"){
 	console.log(welded);
