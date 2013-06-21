@@ -10,7 +10,7 @@ var over18Note = "Better use good judgement on your bedtime."; //over18Note vari
 var yearsLeft = 13 - kidsAge; //math for yearsLeft variable
 
 if ((over18 === "yes") && (kidsAge > 18)){ //if statement for over 18 or not
-	console.log(over18Note);
+	console.log(over18Note); //prints over18 note to console.log
 }
 else if (kidsAge >= 13){
 	console.log("Bed time is" + " " + teenAgeBed);
