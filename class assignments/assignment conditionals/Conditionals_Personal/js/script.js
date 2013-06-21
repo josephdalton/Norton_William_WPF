@@ -16,5 +16,5 @@ else if (kidsAge >= 13){ //else if for kidsAge over 13
 	console.log("Bed time is" + " " + teenAgeBed); //prints bedtime is: for over 13
 }
 else if (!(kidsAge >= 13)){ //else if for kids who are not over 13 years old
-	console.log("Bed time is" + " " + underAgeBed + "You have" + " " + yearsLeft + " " + "years until you can stay up till" + " " + teenAgeBed);
+	console.log("Bed time is" + " " + underAgeBed + "You have" + " " + yearsLeft + " " + "years until you can stay up till" + " " + teenAgeBed); //prints to console.log how long the kid has till they can stay up later.
 }
