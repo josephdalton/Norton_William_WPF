@@ -2,9 +2,9 @@
 
 //Conditionals for Personal
 
-var over18 = prompt("Are you 18 or older?"); //variable for over18
-var kidsAge = prompt("What is the age of the child?"); 
-var underAgeBed = "9 o'clock.";
+var over18 = prompt("Are you 18 or older?"); //variable for over18 prompt
+var kidsAge = prompt("What is the age of the child?"); //kidsAge variable prompt
+var underAgeBed = "9 o'clock."; //underAgeBed variable prompt
 var teenAgeBed = "10 o'clock.";
 var over18Note = "Better use good judgement on your bedtime.";
 var yearsLeft = 13 - kidsAge;
