@@ -11,3 +11,6 @@ var yearsLeft = 13 - kidsAge;
 
 if ((over18 === "yes") && (kidsAge > 18)){
 	console.log(over18Note);
+}
+else if (kidsAge >= 13){
+	console.log("Bed time is" + " " + teenAgeBed);
