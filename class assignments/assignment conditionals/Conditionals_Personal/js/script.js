@@ -9,3 +9,5 @@ var teenAgeBed = "10 o'clock.";
 var over18Note = "Better use good judgement on your bedtime.";
 var yearsLeft = 13 - kidsAge;
 
+if ((over18 === "yes") && (kidsAge > 18)){
+	console.log(over18Note);
