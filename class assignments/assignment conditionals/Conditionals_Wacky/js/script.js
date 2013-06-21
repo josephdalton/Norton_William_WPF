@@ -3,7 +3,7 @@
 //Conditionals for Wacky
 
 
-var tickets = prompt("Do you want tickets to the game?");
+var tickets = prompt("Do you want tickets to the game?"); //variable prompt for tickets
 var tkPrice = 25;
 
 if (tickets == "no"){
