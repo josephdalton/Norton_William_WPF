@@ -3,5 +3,4 @@
 //Conditionals for Wacky
 
 
-
-
+var tickets = prompt("Do you want tickets to the game?");
