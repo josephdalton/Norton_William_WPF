@@ -12,7 +12,7 @@ if (tickets == "no"){ //if statement for tickets, yes or no
 	console.log("Your sure you dont want any?"); //else statement print to console log 
 }
 
-var amount = prompt("How many people do you want to take?");
+var amount = prompt("How many people do you want to take?"); //variable amount prompt
 var total = parseInt(amount) * tkPrice;
 (tickets === "yes") ? console.log("That will be " + total + " dollars.") : console.log("You sure you dont want more?");
 
