@@ -9,6 +9,6 @@ var tkPrice = 25;
 if (tickets == "no"){
 	console.log("OK, have a nice day.");
 }else{ 
-
-
+	console.log("Your sure you dont want any?");
+}
 
