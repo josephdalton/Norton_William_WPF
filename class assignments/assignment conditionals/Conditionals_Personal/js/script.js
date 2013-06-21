@@ -4,3 +4,4 @@
 
 var over18 = prompt("Are you 18 or older?");
 var kidsAge = prompt("What is the age of the child?");
+var underAgeBed = "9 o'clock.";
