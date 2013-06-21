@@ -12,3 +12,6 @@ if (tickets == "no"){
 	console.log("Your sure you dont want any?");
 }
 
+var amount = prompt("How many people do you want to take?");
+
+
