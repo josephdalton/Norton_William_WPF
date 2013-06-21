@@ -13,8 +13,8 @@ if ((over18 === "yes") && (kidsAge > 18)){ //if statement for over 18 or not
 	console.log(over18Note); //prints over18 note to console.log
 }
 else if (kidsAge >= 13){ //else if for kidsAge over 13
-	console.log("Bed time is" + " " + teenAgeBed);
+	console.log("Bed time is" + " " + teenAgeBed); //prints bedtime is: for over 13
 }
-else if (!(kidsAge >= 13)){
+else if (!(kidsAge >= 13)){ //else if for kids who are not over 13 years old
 	console.log("Bed time is" + " " + underAgeBed + "You have" + " " + yearsLeft + " " + "years until you can stay up till" + " " + teenAgeBed);
 }
