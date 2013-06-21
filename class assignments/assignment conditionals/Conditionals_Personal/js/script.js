@@ -9,7 +9,7 @@ var teenAgeBed = "10 o'clock."; //teenAgeBed variable prompt
 var over18Note = "Better use good judgement on your bedtime."; //over18Note variable
 var yearsLeft = 13 - kidsAge; //math for yearsLeft variable
 
-if ((over18 === "yes") && (kidsAge > 18)){
+if ((over18 === "yes") && (kidsAge > 18)){ //if statement for over 18 or not
 	console.log(over18Note);
 }
 else if (kidsAge >= 13){
