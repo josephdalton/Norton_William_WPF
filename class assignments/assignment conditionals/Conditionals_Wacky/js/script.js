@@ -13,5 +13,6 @@ if (tickets == "no"){
 }
 
 var amount = prompt("How many people do you want to take?");
+var total = parseInt(amount) * tkPrice;
 
 
