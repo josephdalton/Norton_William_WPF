@@ -4,7 +4,7 @@
 
 
 var tickets = prompt("Do you want tickets to the game?"); //variable prompt for tickets
-var tkPrice = 25;
+var tkPrice = 25; //variable for ticket price
 
 if (tickets == "no"){
 	console.log("OK, have a nice day.");
