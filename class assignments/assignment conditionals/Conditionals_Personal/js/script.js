@@ -14,3 +14,7 @@ if ((over18 === "yes") && (kidsAge > 18)){
 }
 else if (kidsAge >= 13){
 	console.log("Bed time is" + " " + teenAgeBed);
+}
+else if (!(kidsAge >= 13)){
+	console.log("Bed time is" + " " + underAgeBed + "You have" + " " + yearsLeft + " " + "years until you can stay up till" + " " + teenAgeBed);
+}
