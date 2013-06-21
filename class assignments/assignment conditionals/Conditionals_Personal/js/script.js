@@ -7,7 +7,7 @@ var kidsAge = prompt("What is the age of the child?"); //kidsAge variable prompt
 var underAgeBed = "9 o'clock."; //underAgeBed variable prompt
 var teenAgeBed = "10 o'clock."; //teenAgeBed variable prompt
 var over18Note = "Better use good judgement on your bedtime."; //over18Note variable
-var yearsLeft = 13 - kidsAge;
+var yearsLeft = 13 - kidsAge; //math for yearsLeft variable
 
 if ((over18 === "yes") && (kidsAge > 18)){
 	console.log(over18Note);
