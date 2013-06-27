@@ -20,4 +20,5 @@ var totalAmount = amountOfAllowance();
 
 if (age <= 12){	
 	var newAmount = totalAmount - jobs * 2;
+	var fullyVested = 12 - age;
 	
