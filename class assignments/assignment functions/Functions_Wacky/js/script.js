@@ -12,4 +12,4 @@ var jobs = prompt("How many jobs did you do?");
 
 var amountOfAllowance = function(){
 	var totalAllowance = payRate * jobs;
-	
+	return totalAllowance;
