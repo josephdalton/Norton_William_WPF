@@ -13,7 +13,7 @@ function circumMath(){     //function circummath started
 	var diaToCir = radToDia * 3.14; //diameter to circumference math
 	return diaToCir; //returns the variable diaToCir to the variable circum
 }
-console.log("The circumference of the circle is " + circum); 
+console.log("The circumference of the circle is " + circum); //prints the output of variable circum
 
 
 
