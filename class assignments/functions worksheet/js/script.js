@@ -24,5 +24,7 @@ var deadAnimal = function(){
 	return stingMath;
 }
 
+var weight = prompt("How much does the animal weigh in pounds?");
+
 
 
