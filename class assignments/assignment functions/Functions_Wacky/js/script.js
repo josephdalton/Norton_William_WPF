@@ -16,7 +16,7 @@ var amountOfAllowance = function(){ //function variable amountofallowance
 }
 
 
-var totalAmount = amountOfAllowance();
+var totalAmount = amountOfAllowance(); //var totalamount
 
 if (age <= 12){	
 	var newAmount = totalAmount - jobs * 2;
