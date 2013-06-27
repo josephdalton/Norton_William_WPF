@@ -22,3 +22,6 @@ if (age <= 12){
 	var newAmount = totalAmount - jobs * 2;
 	var fullyVested = 12 - age;
 	console.log("Good job on your work but your not fully vested so you get " + newAmount + " dollars." + " You have " + fullyVested + " years till you get the full amount");
+}else{	
+	console.log("Good job, you get " + totalAmount + " dollars.");
+}
