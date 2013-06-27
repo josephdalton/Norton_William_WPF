@@ -12,6 +12,12 @@ function circumMath(){
 	var radToDia = rad * 2;
 	var diaToCir = radToDia * 3.14;
 	return diaToCir;
+}
+console.log("The circumference of the circle is " + circum); 
+
+
+
+
 
 
 
