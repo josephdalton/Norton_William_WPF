@@ -25,6 +25,7 @@ var deadAnimal = function(){
 }
 
 var weight = prompt("How much does the animal weigh in pounds?");
+var beeStings = 8.666666667;
 
 
 
