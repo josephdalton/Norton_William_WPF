@@ -7,7 +7,7 @@ June 26,2013
 //Functions_Wacky
 
 var age = prompt("How old are you?"); //prompts for age variable
-var payRate = 5;
+var payRate = 5; //payrate is 5 dollars
 var jobs = prompt("How many jobs did you do?");
 
 var amountOfAllowance = function(){
