@@ -26,7 +26,7 @@ var deadAnimal = function(){  //anonymous function deadanimal
 
 var weight = prompt("How much does the animal weigh in pounds?"); //prompts for the weight
 var beeStings = 8.666666667; //beestings variable equals 8.666666667
-var howManyStings = deadAnimal(beeStings, weight);
+var howManyStings = deadAnimal(beeStings, weight); //variable howmanystings is equal to the deadanimal function work
 console.log("It takes " + howManyStings + " stings to kill a " + weight + " pound animal.");
 
 
