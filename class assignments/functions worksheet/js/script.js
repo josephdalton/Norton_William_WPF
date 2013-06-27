@@ -6,8 +6,8 @@ Functions worksheet
 
 //Circumference
 
-var circum = circumMath(); 
-function circumMath(){
+var circum = circumMath(); //variable circum defined as a function
+function circumMath(){     //function circummath started
 	var rad = prompt("What is the radius?");
 	var radToDia = rad * 2;
 	var diaToCir = radToDia * 3.14;
