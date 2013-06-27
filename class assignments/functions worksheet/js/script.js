@@ -17,7 +17,12 @@ console.log("The circumference of the circle is " + circum);
 
 
 
+//Stung!
 
+var deadAnimal = function(){
+	var stingMath = beeStings * weight;
+	return stingMath;
+}
 
 
 
