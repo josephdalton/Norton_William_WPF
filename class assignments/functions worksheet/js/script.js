@@ -24,7 +24,7 @@ var deadAnimal = function(){  //anonymous function deadanimal
 	return stingMath; //returns the math data to the deadanimal variable
 }
 
-var weight = prompt("How much does the animal weigh in pounds?");
+var weight = prompt("How much does the animal weigh in pounds?"); //prompts for the weight
 var beeStings = 8.666666667;
 var howManyStings = deadAnimal(beeStings, weight);
 console.log("It takes " + howManyStings + " stings to kill a " + weight + " pound animal.");
