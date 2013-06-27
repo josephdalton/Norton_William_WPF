@@ -20,7 +20,7 @@ console.log("The circumference of the circle is " + circum); //prints the output
 //Stung!
 
 var deadAnimal = function(){  //anonymous function deadanimal
-	var stingMath = beeStings * weight;
+	var stingMath = beeStings * weight; //variable for the math
 	return stingMath;
 }
 
