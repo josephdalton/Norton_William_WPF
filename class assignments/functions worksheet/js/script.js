@@ -21,7 +21,7 @@ console.log("The circumference of the circle is " + circum); //prints the output
 
 var deadAnimal = function(){  //anonymous function deadanimal
 	var stingMath = beeStings * weight; //variable for the math
-	return stingMath;
+	return stingMath; //returns the math data to the deadanimal variable
 }
 
 var weight = prompt("How much does the animal weigh in pounds?");
