@@ -17,3 +17,5 @@ var amountOfAllowance = function(){
 
 
 var totalAmount = amountOfAllowance();
+
+if (age <= 12){	
