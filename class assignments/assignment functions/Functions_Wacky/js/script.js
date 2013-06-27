@@ -10,3 +10,4 @@ var age = prompt("How old are you?");
 var payRate = 5;
 var jobs = prompt("How many jobs did you do?");
 
+var amountOfAllowance = function(){
