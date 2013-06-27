@@ -11,7 +11,7 @@ var payRate = 5; //payrate is 5 dollars
 var jobs = prompt("How many jobs did you do?"); //number of jobs prompts
 
 var amountOfAllowance = function(){ //function variable amountofallowance
-	var totalAllowance = payRate * jobs;
+	var totalAllowance = payRate * jobs; //variable totalallowance math
 	return totalAllowance;
 }
 
