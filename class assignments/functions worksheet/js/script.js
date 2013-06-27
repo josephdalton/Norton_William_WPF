@@ -8,6 +8,7 @@ Functions worksheet
 
 var circum = circumMath(); 
 function circumMath(){
+	var rad = prompt("What is the radius?");
 	
 
 
