@@ -30,5 +30,9 @@ var howManyStings = deadAnimal(beeStings, weight); //variable howmanystings is e
 console.log("It takes " + howManyStings + " stings to kill a " + weight + " pound animal."); //print global variables
 
 
+circumMath();
+console.log(circum);
+
+
 
 
