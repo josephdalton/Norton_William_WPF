@@ -26,3 +26,6 @@ var battToGo = function(){
     return remain;
 }
 
+if ((battPerc >= fullBatt) || (battPerc > fullDays)){
+	power();
+}
