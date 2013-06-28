@@ -16,7 +16,7 @@ var battPerc = prompt("What is the percent of the battery?"); //variable battper
 var fullBatt = 100; //variable fullbatt
 var fullDays = prompt("What is the amount of battery do you need to use today?"); //variable fulldays prompt
 
-function power(){
+function power(){ //function power
 	console.log("You have enough power for today!");
 }
 
