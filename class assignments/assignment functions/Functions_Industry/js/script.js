@@ -27,7 +27,7 @@ var battToGo = function(){ //function batttogo
 }
 
 if ((battPerc >= fullBatt) || (battPerc > fullDays)){ //if statement
-	power();
+	power(); //power function called out
 }
 else if  (battPerc < fullDays){
 	battToGo();
