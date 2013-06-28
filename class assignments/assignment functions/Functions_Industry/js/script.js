@@ -20,3 +20,5 @@ function power(){
 	console.log("You have enough power for today!");
 }
 
+var battToGo = function(){
+	
