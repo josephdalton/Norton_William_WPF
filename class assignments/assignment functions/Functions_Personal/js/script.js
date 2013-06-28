@@ -17,3 +17,5 @@ var totalAmount = function caffeineBuzz(){
 
 var redBulls = totalAmount();
 
+!(drinkToday >= safeAmount) ? console.log(name + ", you need some more caffeine, You can still safely have " + redBulls + " more OZ's today") : console.log("Yeah! " + name + " has his wings today with " + drinkToday + " OZ's of Red Bull");
+
