@@ -6,7 +6,7 @@ Assignment: Functions
 
 //Functions_Personal
 
-var name = prompt("What is your name?");
+var name = prompt("What is your name?"); // variable name prompt
 var drinkToday = prompt("How much Red Bull have you had today in OZ?");
 var safeAmount = 40;
 
