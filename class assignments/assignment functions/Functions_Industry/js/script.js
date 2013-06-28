@@ -17,7 +17,7 @@ var fullBatt = 100; //variable fullbatt
 var fullDays = prompt("What is the amount of battery do you need to use today?"); //variable fulldays prompt
 
 function power(){ //function power
-	console.log("You have enough power for today!");
+	console.log("You have enough power for today!"); //console.log for the function
 }
 
 var battToGo = function(){
