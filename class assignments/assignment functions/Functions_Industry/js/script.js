@@ -20,7 +20,7 @@ function power(){ //function power
 	console.log("You have enough power for today!"); //console.log for the function
 }
 
-var battToGo = function(){
+var battToGo = function(){ //function batttogo
 	var remain = fullDays - battPerc;
 	console.log(names[0] + " or " + names[1] + " or " + names[2] + " needs to plug in the fork truck. Its missing about " + remain + " percent.");
     return remain;
