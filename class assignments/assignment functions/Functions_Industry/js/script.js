@@ -13,7 +13,7 @@ var names = new Array(); //variable array names
 	names[2] = "Larry"; //index 2 larry string
 	
 var battPerc = prompt("What is the percent of the battery?"); //variable battperc prompt
-var fullBatt = 100;
+var fullBatt = 100; //variable fullbatt
 var fullDays = prompt("What is the amount of battery do you need to use today?");
 
 function power(){
