@@ -8,3 +8,7 @@ Assignment: Functions
 
 
 var names = new Array();
+	names[0] = "Bill";
+	names[1] = "Brian";
+	names[2] = "Larry";
+	
