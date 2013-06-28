@@ -11,4 +11,5 @@ var drinkToday = prompt("How much Red Bull have you had today in OZ?");
 var safeAmount = 40;
 
 var totalAmount = function caffeineBuzz(){
+	var totalMath = safeAmount - drinkToday;
 	
