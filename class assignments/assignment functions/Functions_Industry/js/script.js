@@ -12,3 +12,4 @@ var names = new Array();
 	names[1] = "Brian";
 	names[2] = "Larry";
 	
+var battPerc = prompt("What is the percent of the battery?");
