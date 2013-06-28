@@ -29,3 +29,6 @@ var battToGo = function(){
 if ((battPerc >= fullBatt) || (battPerc > fullDays)){
 	power();
 }
+else if  (battPerc < fullDays){
+	battToGo();
+}
