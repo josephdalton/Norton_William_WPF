@@ -23,7 +23,7 @@ function power(){ //function power
 var battToGo = function(){ //function batttogo
 	var remain = fullDays - battPerc; // remain variable
 	console.log(names[0] + " or " + names[1] + " or " + names[2] + " needs to plug in the fork truck. Its missing about " + remain + " percent."); //console.log printout
-    return remain;
+    return remain; //return to batttogo the remain variable
 }
 
 if ((battPerc >= fullBatt) || (battPerc > fullDays)){
