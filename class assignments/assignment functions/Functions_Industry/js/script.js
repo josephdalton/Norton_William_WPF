@@ -14,7 +14,7 @@ var names = new Array(); //variable array names
 	
 var battPerc = prompt("What is the percent of the battery?"); //variable battperc prompt
 var fullBatt = 100; //variable fullbatt
-var fullDays = prompt("What is the amount of battery do you need to use today?");
+var fullDays = prompt("What is the amount of battery do you need to use today?"); //variable fulldays prompt
 
 function power(){
 	console.log("You have enough power for today!");
