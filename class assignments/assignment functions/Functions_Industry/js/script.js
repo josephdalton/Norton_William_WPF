@@ -7,7 +7,7 @@ Assignment: Functions
 //Functions_Industry
 
 
-var names = new Array();
+var names = new Array(); //variable array names
 	names[0] = "Bill";
 	names[1] = "Brian";
 	names[2] = "Larry";
