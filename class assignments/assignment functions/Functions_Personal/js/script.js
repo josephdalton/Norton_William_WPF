@@ -12,7 +12,7 @@ var safeAmount = 40; //safeamount variable
 
 var totalAmount = function caffeineBuzz(){ //variable totalamount function
 	var totalMath = safeAmount - drinkToday; //variable totalmath 
-	return totalMath;
+	return totalMath; //return totalmath to totalamount
 }
 
 var redBulls = totalAmount();
