@@ -26,7 +26,7 @@ var battToGo = function(){ //function batttogo
     return remain; //return to batttogo the remain variable
 }
 
-if ((battPerc >= fullBatt) || (battPerc > fullDays)){
+if ((battPerc >= fullBatt) || (battPerc > fullDays)){ //if statement
 	power();
 }
 else if  (battPerc < fullDays){
