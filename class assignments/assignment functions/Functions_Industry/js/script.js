@@ -22,4 +22,5 @@ function power(){
 
 var battToGo = function(){
 	var remain = fullDays - battPerc;
-	
+	console.log(names[0] + " or " + names[1] + " or " + names[2] + " needs to plug in the fork truck. Its missing about " + remain + " percent.");
+    
