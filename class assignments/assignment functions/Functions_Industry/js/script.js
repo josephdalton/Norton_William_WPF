@@ -21,4 +21,5 @@ function power(){
 }
 
 var battToGo = function(){
+	var remain = fullDays - battPerc;
 	
